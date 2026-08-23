@@ -1,5 +1,8 @@
 # 01 — Background Subtraction
 
+> 🇫🇷 [Readme en français](README.fr.md)
+
+
 Moving-object detection by modeling the scene background and marking everything that deviates from it as foreground.
 
 ![Background subtraction concept](../assets/bg_subtraction_concept.png)

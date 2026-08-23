@@ -1,5 +1,8 @@
 # 04 — Multi-Object Tracking: YOLOv8 + DeepSORT
 
+> 🇫🇷 [Readme en français](README.fr.md)
+
+
 Tracking-by-detection: a detector proposes objects in every frame, and a tracker links them into consistent identities over time.
 
 ![DeepSORT pipeline](../assets/deepsort_pipeline.png)

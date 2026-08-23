@@ -3,6 +3,8 @@
 **From background subtraction to siamese tracking — a progressive journey through video analysis**
 *Master BIAM 2025–2026 · Biomedical Video Analysis · FSDM, Université Sidi Mohamed Ben Abdellah*
 
+> 🇫🇷 [Readme en français](README.fr.md)
+
 ---
 
 This repository gathers five hands-on labs covering the core techniques of video analysis, ordered from classical to deep learning methods. Each module is self-contained with its own README, runnable scripts, and lab statement.

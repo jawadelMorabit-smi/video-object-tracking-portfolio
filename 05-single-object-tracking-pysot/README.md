@@ -1,5 +1,8 @@
 # 05 — Single-Object Tracking: SiamRPN++ with PySOT
 
+> 🇫🇷 [Readme en français](README.fr.md)
+
+
 Siamese trackers learn the target's appearance **once** (from its first-frame bounding box) and then regress where that template appears in every subsequent frame — no per-class training, works on any object out of the box.
 
 ## How a Siamese tracker works

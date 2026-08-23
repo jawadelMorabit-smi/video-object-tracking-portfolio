@@ -1,5 +1,8 @@
 # 03 — Optical Flow
 
+> 🇫🇷 [Readme en français](README.fr.md)
+
+
 Estimating the per-pixel motion field between consecutive frames: for each pixel, a vector `(u, v)` describing its displacement from time `t` to `t+1`, under the brightness-constancy assumption `I(x, y, t) = I(x+u, y+v, t+1)`.
 
 **Sparse flow** tracks a few interest points; **dense flow** computes a vector for *every* pixel.

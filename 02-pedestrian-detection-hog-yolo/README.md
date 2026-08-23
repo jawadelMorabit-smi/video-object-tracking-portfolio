@@ -1,5 +1,8 @@
 # 02 — Pedestrian Detection: HOG+SVM vs YOLOv5
 
+> 🇫🇷 [Readme en français](README.fr.md)
+
+
 Two generations of object detection applied to pedestrian footage:
 
 ![HOG+SVM vs YOLOv5](../assets/hog_vs_yolo.png)
