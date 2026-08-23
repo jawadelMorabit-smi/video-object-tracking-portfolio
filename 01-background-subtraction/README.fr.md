@@ -31,6 +31,12 @@ Masque MOG2 réel calculé sur la séquence test (paramètres identiques aux scr
 
 ![Image originale vs masque MOG2](../assets/bg_subtraction_mog2.png)
 
+## Démo
+
+Comparaison MOG2 vs KNN sur les 5 premières secondes (Original | MOG2 | KNN, ombres en bleu) — générée par [`export_preview.py`](export_preview.py) :
+
+![Démo soustraction de fond : Original vs MOG2 vs KNN](../assets/bg_subtraction_demo.gif)
+
 ## Enseignements clés
 
 - **La gestion des ombres compte** : MOG2 marque les ombres en gris plutôt qu'en blanc, ce qui évite de fusionner des détections proches.

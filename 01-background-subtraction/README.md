@@ -27,6 +27,13 @@ Every method here follows the same skeleton — only the *background model* chan
 | `mogmog2gmg.py` | Adds **GMG** to the comparison — three statistical models side by side. |
 | `mog2knnAvance.py` | Benchmark class: FPS measurement, morphological cleanup, per-method stats on a video file. |
 | `mog2knnV2.py` | Final consolidated version of the benchmark pipeline. |
+| `export_preview.py` | Exports the first N seconds of the 3-panel comparison (Original \| MOG2 \| KNN) to MP4 + GIF for the README: `python export_preview.py 5` |
+
+## Demo
+
+MOG2 vs KNN on the first 5 seconds (Original \| MOG2 \| KNN, shadows in blue) — generated with [`export_preview.py`](export_preview.py):
+
+![Background subtraction demo: Original vs MOG2 vs KNN](../assets/bg_subtraction_demo.gif)
 
 ## Key takeaways
 
