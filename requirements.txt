@@ -1,0 +1,16 @@
+# Shared dependencies across all modules
+# Python >= 3.10 recommended
+
+opencv-python>=4.8
+numpy>=1.24
+
+# Optical flow (RAFT, CLG) and DeepSORT Re-ID
+torch>=2.0
+torchvision>=0.15
+
+# Multi-object tracking (module 04)
+ultralytics>=8.0        # YOLOv8
+deep-sort-realtime      # pip installable DeepSORT used in the notebook
+
+# PySOT (module 05) is installed from source:
+#   git clone https://github.com/STVIR/pysot && cd pysot && python setup.py build_ext --inplace && pip install .
