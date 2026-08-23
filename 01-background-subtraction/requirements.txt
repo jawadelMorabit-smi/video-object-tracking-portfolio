@@ -1,0 +1,7 @@
+# Module 01 only: OpenCV background subtraction
+# Install: pip install -r requirements.txt
+opencv-python>=4.8
+numpy>=1.24
+
+# Note: torch is NOT needed here.
+# For modules 03/04/05 see their own requirements.txt files.

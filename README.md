@@ -77,7 +77,16 @@ Siamese trackers: learn a template in frame 1, regress its position in every fol
 
 ## Setup
 
-Python ≥ 3.10.
+Python ≥ 3.10. Each module has its own `requirements.txt` with only what it needs:
+
+```bash
+pip install -r 01-background-subtraction/requirements.txt   # OpenCV only
+pip install -r 03-optical-flow/requirements.txt             # + PyTorch (RAFT)
+pip install -r 04-multi-object-tracking-deepsort/requirements.txt
+pip install -r 05-single-object-tracking-pysot/requirements.txt
+```
+
+Or install everything at once from the root:
 
 ```bash
 pip install -r requirements.txt

@@ -77,7 +77,16 @@ Traceurs siamés : apprendre un gabarit sur la première image, puis régresser 
 
 ## Installation
 
-Python ≥ 3.10.
+Python ≥ 3.10. Chaque module a son propre `requirements.txt` avec uniquement ce dont il a besoin :
+
+```bash
+pip install -r 01-background-subtraction/requirements.txt   # OpenCV uniquement
+pip install -r 03-optical-flow/requirements.txt             # + PyTorch (RAFT)
+pip install -r 04-multi-object-tracking-deepsort/requirements.txt
+pip install -r 05-single-object-tracking-pysot/requirements.txt
+```
+
+Ou tout installer d'un coup depuis la racine :
 
 ```bash
 pip install -r requirements.txt

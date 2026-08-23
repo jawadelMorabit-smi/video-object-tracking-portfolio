@@ -26,6 +26,12 @@ Farnebäck output on the shared test clip — hue encodes motion direction, brig
 | `raft_cpu.py` | **RAFT** (Recurrent All-Pairs Field Transforms), pretrained deep model — CPU/GPU auto-switching | dense (deep) |
 | `raft_gpu.py` | RAFT forced-GPU variant | dense (deep) |
 
+## Install
+
+```bash
+pip install -r requirements.txt
+```
+
 ## RAFT setup
 
 The RAFT codebase and pretrained weights are not redistributed:

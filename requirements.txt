@@ -1,16 +1,24 @@
-# Shared dependencies across all modules
+# Root requirements — installs everything needed by ALL modules at once.
+# Prefer the per-module requirements.txt if you only need one module:
+#   01-background-subtraction/requirements.txt   -> opencv only
+#   03-optical-flow/requirements.txt             -> opencv + torch (RAFT, CLG)
+#   04-multi-object-tracking-deepsort/requirements.txt -> ultralytics + deep-sort
+#   05-single-object-tracking-pysot/requirements.txt   -> torch + PySOT (from source)
+
 # Python >= 3.10 recommended
 
 opencv-python>=4.8
 numpy>=1.24
 
-# Optical flow (RAFT, CLG) and DeepSORT Re-ID
+# Optical flow (RAFT, CLG) and PySOT tracking
 torch>=2.0
 torchvision>=0.15
 
 # Multi-object tracking (module 04)
 ultralytics>=8.0        # YOLOv8
-deep-sort-realtime      # pip installable DeepSORT used in the notebook
+deep-sort-realtime      # DeepSORT used in the notebook
 
-# PySOT (module 05) is installed from source:
-#   git clone https://github.com/STVIR/pysot && cd pysot && python setup.py build_ext --inplace && pip install .
+# Not pip-installable (installed from source / downloaded separately):
+# - PySOT (module 05):      git clone https://github.com/STVIR/pysot
+# - RAFT codebase (module 03): git clone https://github.com/princeton-vl/RAFT
+# - YOLOv5 (module 02):     git clone https://github.com/ultralytics/yolov5

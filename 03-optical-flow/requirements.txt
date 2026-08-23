@@ -1,0 +1,14 @@
+# Module 03 only: optical flow
+# Install: pip install -r requirements.txt
+opencv-python>=4.8
+numpy>=1.24
+
+# PyTorch — used by OF_CLG_GPU.py and raft_cpu.py / raft_gpu.py
+# CPU-only install (smaller):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0
+torchvision>=0.15
+
+# RAFT note: raft_*.py import `raft` and `utils.utils` from the cloned
+# https://github.com/princeton-vl/RAFT repository — clone it and point
+# raft_root at it (weights download instructions in the README).

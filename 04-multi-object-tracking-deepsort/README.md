@@ -44,7 +44,7 @@ YOLOv8 + DeepSORT on a street scene — IDs stay stable through crossings and pa
 Open `TP_DeepSORT.ipynb` in Google Colab (GPU runtime recommended) or locally:
 
 ```bash
-pip install ultralytics deep-sort-realtime
+pip install -r requirements.txt
 jupyter notebook TP_DeepSORT.ipynb
 ```
 

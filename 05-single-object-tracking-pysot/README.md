@@ -26,6 +26,9 @@ Ran the [PySOT](https://github.com/STVIR/pysot) framework end to end:
 ## Run it yourself
 
 ```bash
+# 0. Dependencies
+pip install -r requirements.txt
+
 # 1. Install PySOT
 git clone https://github.com/STVIR/pysot
 cd pysot

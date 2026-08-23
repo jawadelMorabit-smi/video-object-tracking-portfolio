@@ -13,7 +13,7 @@ Two generations of object detection applied to pedestrian footage:
 ## Contents
 
 - `hog.py` — HOG-based pedestrian detection script *(placeholder — see status below)*
-- The full experiment was run inside a local clone of **YOLOv5** with its own virtual environment. The framework itself is not re-hosted here — clone it upstream:
+- The full experiment was run inside a local clone of **YOLOv5** with its own virtual environment; YOLOv5 brings its own dependency stack (`requirements.txt` in that repo). The framework itself is not re-hosted here — clone it upstream:
 
 ```bash
 git clone https://github.com/ultralytics/yolov5

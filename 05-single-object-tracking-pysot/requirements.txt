@@ -1,0 +1,12 @@
+# Module 05 only: SiamRPN++ tracking with PySOT
+# Install: pip install -r requirements.txt   THEN install PySOT from source (below)
+opencv-python>=4.8
+numpy>=1.24
+torch>=2.0
+torchvision>=0.15
+
+# PySOT itself is NOT on PyPI — install from source:
+#   git clone https://github.com/STVIR/pysot
+#   cd pysot && python setup.py build_ext --inplace && pip install .
+#
+# Model weights (~180 MB) come from the PySOT MODEL_ZOO — see README.

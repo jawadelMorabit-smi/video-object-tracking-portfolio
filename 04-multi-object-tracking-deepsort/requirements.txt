@@ -1,0 +1,9 @@
+# Module 04 only: YOLOv8 + DeepSORT tracking (see TP_DeepSORT.ipynb)
+# Install: pip install -r requirements.txt
+ultralytics>=8.0        # YOLOv8 — pulls in torch, opencv, numpy automatically
+deep-sort-realtime      # pip-installable DeepSORT used by the notebook
+gdown                   # downloads the sample video inside the notebook
+
+# Note: the deep_sort_pytorch/ folder here is the classic reference
+# implementation for study; running it additionally needs:
+#   scipy, sklearn, opencv-python  (+ ckpt.t7 weight, see README)
