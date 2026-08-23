@@ -2,6 +2,8 @@
 
 Tracking-by-detection: a detector proposes objects in every frame, and a tracker links them into consistent identities over time.
 
+![DeepSORT pipeline](../assets/deepsort_pipeline.png)
+
 ## Pipeline
 
 ```

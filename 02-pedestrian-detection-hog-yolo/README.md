@@ -2,6 +2,8 @@
 
 Two generations of object detection applied to pedestrian footage:
 
+![HOG+SVM vs YOLOv5](../assets/hog_vs_yolo.png)
+
 1. **HOG + SVM** (classical): Histogram of Oriented Gradients features + a sliding-window linear SVM, OpenCV ships a pretrained pedestrian detector (`cv2.HOGDescriptor_getDefaultPeopleDetector`).
 2. **YOLOv5** (deep learning): single-stage CNN detector, run via the official [ultralytics/yolov5](https://github.com/ultralytics/yolov5) repository.
 

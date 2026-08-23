@@ -2,6 +2,16 @@
 
 Moving-object detection by modeling the scene background and marking everything that deviates from it as foreground.
 
+![Background subtraction concept](../assets/bg_subtraction_concept.png)
+
+## How it works
+
+Every method here follows the same skeleton — only the *background model* changes:
+
+1. **Model the background** — MOG2 fits a Gaussian mixture per pixel; KNN keeps recent samples per pixel; GMG does Bayesian first-frames estimation
+2. **Classify each new pixel** — foreground if it doesn't fit the learned model
+3. **Clean up** — morphological opening removes speckle, contour extraction + area filter yields bounding boxes
+
 ## Scripts
 
 | Script | What it does |

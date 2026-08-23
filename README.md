@@ -9,6 +9,8 @@ This repository gathers five hands-on labs covering the core techniques of video
 
 ## The Journey
 
+![The journey — five modules from classical to deep tracking](assets/journey_roadmap.png)
+
 | # | Module | Technique family | Key tools |
 |---|--------|-----------------|-----------|
 | 01 | [Background Subtraction](01-background-subtraction/) | Frame differencing, GMM (MOG2), KNN, GMG | OpenCV |

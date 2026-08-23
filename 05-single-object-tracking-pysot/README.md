@@ -2,6 +2,12 @@
 
 Siamese trackers learn the target's appearance **once** (from its first-frame bounding box) and then regress where that template appears in every subsequent frame — no per-class training, works on any object out of the box.
 
+## How a Siamese tracker works
+
+The template crop from frame 1 and the current search region go through the *same* CNN; cross-correlating the two feature maps yields a response head that classifies "where is the target?" and regresses "how big is its box?":
+
+![Siamese tracker architecture](../assets/siamese_tracker.png)
+
 ## What was done
 
 Ran the [PySOT](https://github.com/STVIR/pysot) framework end to end:

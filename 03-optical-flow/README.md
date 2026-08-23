@@ -4,6 +4,14 @@ Estimating the per-pixel motion field between consecutive frames: for each pixel
 
 **Sparse flow** tracks a few interest points; **dense flow** computes a vector for *every* pixel.
 
+![Optical flow concept](../assets/optical_flow_concept.png)
+
+## Dense flow in practice
+
+Farnebäck output on the shared test clip — hue encodes motion direction, brightness encodes speed. The two walking pedestrians stand out clearly against the static background:
+
+![Farneback dense optical flow — frame vs HSV visualization](../assets/optical_flow_farneback.png)
+
 ## Scripts
 
 | Script | Method | Type |
