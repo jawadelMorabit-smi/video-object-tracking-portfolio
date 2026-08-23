@@ -16,7 +16,7 @@ This repository gathers five hands-on labs covering the core techniques of video
 | # | Module | Technique family | Key tools |
 |---|--------|-----------------|-----------|
 | 01 | [Background Subtraction](01-background-subtraction/) | Frame differencing, GMM (MOG2), KNN, GMG | OpenCV |
-| 02 | [Pedestrian Detection — HOG & YOLOv5](02-pedestrian-detection-hog-yolo/) | Classical feature-based vs. one-stage deep detection | OpenCV HOG, YOLOv5 |
+| 02 | [Object Detection — HOG & YOLO](02-object-detection/) 🌟 | Classical feature-based vs. one-stage deep detection — incl. cataract mini-project | OpenCV HOG, YOLOv5 |
 | 03 | [Optical Flow](03-optical-flow/) | Sparse (Lucas–Kanade) & dense flow (Farnebäck, CLG), deep flow estimation | OpenCV, PyTorch, RAFT |
 | 04 | [Multi-Object Tracking — DeepSORT](04-multi-object-tracking-deepsort/) | Detection + tracking-by-detection, Kalman filter + appearance Re-ID | YOLOv8, DeepSORT, Mask R-CNN |
 | 05 | [Single-Object Tracking — PySOT](05-single-object-tracking-pysot/) | Siamese networks: SiamRPN++ template matching | PySOT |
@@ -43,8 +43,8 @@ The foundation of moving-object detection: separating foreground from a learned 
 - **MOG2 / KNN / GMG**: Gaussian-mixture and nearest-neighbor background models compared side by side
 - Benchmark script measuring FPS and mask quality across all methods, with contour extraction and bounding boxes
 
-### 02 — Pedestrian Detection
-Classical HOG+SVM sliding-window detection vs. the YOLOv5 one-stage detector on pedestrian footage.
+### 02 — Object Detection
+Classical HOG+SVM detection vs. the YOLOv5 one-stage detector — applied to pedestrian footage in the lab and taken further in a **cataract-detection mini-project** (medical imaging): two full pipelines trained and compared on the same dataset → [eye-cataract-detection](https://github.com/jawadelMorabit-smi/eye-cataract-detection).
 
 ### 03 — Optical Flow
 Motion as a per-pixel vector field:
@@ -68,7 +68,7 @@ Siamese trackers: learn a template in frame 1, regress its position in every fol
 
 ```
 ├── 01-background-subtraction/        MOG2 / KNN / GMG scripts + benchmark
-├── 02-pedestrian-detection-hog-yolo/ HOG detection notes + YOLOv5 setup
+├── 02-object-detection/              HOG vs YOLO + cataract detection project
 ├── 03-optical-flow/                  LK, Farnebäck, CLG, RAFT + report
 ├── 04-multi-object-tracking-deepsort/ YOLOv8+DeepSORT notebooks + DeepSORT core
 ├── 05-single-object-tracking-pysot/  SiamRPN++ demo script + result GIF
@@ -101,7 +101,7 @@ Most modules were developed against a shared test clip (`personnes_en_mouvement.
 | Module | Start here | Statement |
 |--------|-----------|-----------|
 | Background Subtraction | [`mog2knnV2.py`](01-background-subtraction/mog2knnV2.py) | [Tp01.pdf](01-background-subtraction/Tp01.pdf) |
-| Pedestrian Detection | [`hog.py`](02-pedestrian-detection-hog-yolo/hog.py) | — |
+| Object Detection | [`02-object-detection/`](02-object-detection/) → [eye-cataract-detection](https://github.com/jawadelMorabit-smi/eye-cataract-detection) | — |
 | Optical Flow | [`raft_cpu.py`](03-optical-flow/raft_cpu.py) | [TP3.pdf](03-optical-flow/TP3.pdf) |
 | Multi-Object Tracking | [`TP_DeepSORT.ipynb`](04-multi-object-tracking-deepsort/TP_DeepSORT.ipynb) | [TP4.pdf](04-multi-object-tracking-deepsort/TP4.pdf) |
 | Single-Object Tracking | [`demo_pysot.py`](05-single-object-tracking-pysot/demo_pysot.py) | [TP5.pdf](05-single-object-tracking-pysot/TP5.pdf) |
