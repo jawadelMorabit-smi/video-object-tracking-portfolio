@@ -34,8 +34,6 @@ cd yolov5 && pip install -r requirements.txt
 python detect.py --weights yolov5s.pt --source video.mp4   # pretrained COCO weights
 ```
 
-- `hog.py` — HOG-based detection script *(placeholder)*
-
 ## Key takeaways
 
 - HOG+SVM trains in seconds without GPU and stays interpretable, but struggles with occlusion, scale variation and motion blur.

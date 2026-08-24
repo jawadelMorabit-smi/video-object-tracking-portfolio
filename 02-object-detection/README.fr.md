@@ -34,8 +34,6 @@ cd yolov5 && pip install -r requirements.txt
 python detect.py --weights yolov5s.pt --source video.mp4   # poids COCO pré-entraînés
 ```
 
-- `hog.py` — script de détection HOG *(placeholder)*
-
 ## Enseignements clés
 
 - HOG+SVM s'entraîne en quelques secondes sans GPU et reste interprétable, mais peine face aux occlusions, variations d'échelle et flou de mouvement.
