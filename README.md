@@ -3,6 +3,8 @@
 **From background subtraction to siamese tracking — a progressive journey through video analysis**
 *Master BIAM 2025–2026 · Biomedical Video Analysis · FSDM, Université Sidi Mohamed Ben Abdellah*
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![OpenCV](https://img.shields.io/badge/OpenCV-4.8%2B-orange)
+
 > 🇫🇷 [Readme en français](README.fr.md)
 
 ---

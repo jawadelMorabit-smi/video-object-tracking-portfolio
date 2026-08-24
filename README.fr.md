@@ -3,6 +3,8 @@
 **De la soustraction de fond au suivi siaméen — un parcours progressif en analyse vidéo**
 *Master BIAM 2025–2026 · Vidéo Biomédicale · FSDM, Université Sidi Mohamed Ben Abdellah*
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![OpenCV](https://img.shields.io/badge/OpenCV-4.8%2B-orange)
+
 > 🇬🇧 [Readme in English](README.md)
 
 ---
