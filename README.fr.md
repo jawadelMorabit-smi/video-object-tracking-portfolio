@@ -112,4 +112,4 @@ La plupart des modules ont été développés autour d'une séquence test commun
 
 **Jaouad El Morabit** — Master BIAM 2025–2026, Imagerie Biomédicale
 
-Voir aussi mon autre projet : [radiogenomics-analytics-framework](https://github.com/jawadelMorabit-smi/radiogenomics-analytics-framework) — prédire la méthylation de MGMT à partir d'IRM par radiomique et CNNs 3D.
+Autres projets : [pipeline-pneumonia-cvd-colocalization](https://github.com/jawadelMorabit-smi/pipeline-pneumonia-cvd-colocalization) — colocalisation GWAS×eQTL (bioinformatique) · [eye-cataract-detection](https://github.com/jawadelMorabit-smi/eye-cataract-detection) — HOG+SVM vs YOLOv5 · [radiogenomics-analytics-framework](https://github.com/jawadelMorabit-smi/radiogenomics-analytics-framework) — méthylation MGMT par IRM.

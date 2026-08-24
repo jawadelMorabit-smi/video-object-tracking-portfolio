@@ -112,4 +112,4 @@ Most modules were developed against a shared test clip (`personnes_en_mouvement.
 
 **Jaouad El Morabit** — Master BIAM 2025–2026, Biomedical Imaging
 
-Also check out my other work: [radiogenomics-analytics-framework](https://github.com/jawadelMorabit-smi/radiogenomics-analytics-framework) — predicting MGMT methylation from MRI with radiomics and 3D CNNs.
+More of my work: [pipeline-pneumonia-cvd-colocalization](https://github.com/jawadelMorabit-smi/pipeline-pneumonia-cvd-colocalization) — GWAS×eQTL colocalization pipeline (bioinformatics) · [eye-cataract-detection](https://github.com/jawadelMorabit-smi/eye-cataract-detection) — HOG+SVM vs YOLOv5 · [radiogenomics-analytics-framework](https://github.com/jawadelMorabit-smi/radiogenomics-analytics-framework) — MGMT methylation from MRI.
