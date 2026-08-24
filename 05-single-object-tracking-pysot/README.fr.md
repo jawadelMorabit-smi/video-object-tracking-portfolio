@@ -18,6 +18,12 @@ Exécution complète du framework [PySOT](https://github.com/STVIR/pysot) :
 
 ## Résultat
 
+Entrée vs sortie SiamRPN++, côte à côte — le traceur garde le sac verrouillé malgré la déformation et l'arrière-plan :
+
+![Démo de suivi SiamRPN++ côte à côte](../assets/bag_tracking_sidebyside.gif)
+
+GIF de sortie pleine résolution :
+
 ![Démo de suivi SiamRPN++](bag_demo.gif)
 
 ## Reproduire

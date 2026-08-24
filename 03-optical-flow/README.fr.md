@@ -12,6 +12,12 @@ Sortie Farnebäck sur la séquence test — la teinte code la direction du mouve
 
 ![Flot optique dense Farnebäck — image vs visualisation HSV](../assets/optical_flow_farneback.png)
 
+## Le flot épars en pratique
+
+Suivi Lucas–Kanade des coins Shi–Tomasi sur la séquence test — les trajectoires accumulées révèlent les chemins de mouvement des piétons :
+
+![Trajectoires Lucas-Kanade](../assets/optical_flow_lk_trajectories.png)
+
 ## Scripts
 
 | Script | Méthode | Type |

@@ -21,6 +21,12 @@ Ran the [PySOT](https://github.com/STVIR/pysot) framework end to end:
 
 ## Result
 
+Input vs SiamRPN++ output, side by side — the tracker keeps the bag locked through deformation and background clutter:
+
+![SiamRPN++ side-by-side tracking demo](../assets/bag_tracking_sidebyside.gif)
+
+Full-resolution output GIF:
+
 ![SiamRPN++ tracking demo](bag_demo.gif)
 
 ## Run it yourself

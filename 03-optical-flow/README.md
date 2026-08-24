@@ -15,6 +15,12 @@ Farnebäck output on the shared test clip — hue encodes motion direction, brig
 
 ![Farneback dense optical flow — frame vs HSV visualization](../assets/optical_flow_farneback.png)
 
+## Sparse flow in practice
+
+Lucas–Kanade tracking of Shi–Tomasi corners on the shared test clip — accumulated trajectory trails reveal the pedestrians' motion paths:
+
+![Lucas-Kanade trajectories](../assets/optical_flow_lk_trajectories.png)
+
 ## Scripts
 
 | Script | Method | Type |
