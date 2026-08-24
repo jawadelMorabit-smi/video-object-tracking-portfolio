@@ -21,6 +21,12 @@ Lucas–Kanade tracking of Shi–Tomasi corners on the shared test clip — accu
 
 ![Lucas-Kanade trajectories](../assets/optical_flow_lk_trajectories.png)
 
+## Sparse flow in practice
+
+Lucas–Kanade trajectories on the shared test clip — each colored trail follows one Shi–Tomasi corner across frames:
+
+![Lucas-Kanade feature trajectories](../assets/optical_flow_lk_trails.png)
+
 ## Scripts
 
 | Script | Method | Type |

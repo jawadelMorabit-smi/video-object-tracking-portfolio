@@ -18,6 +18,12 @@ Suivi Lucas–Kanade des coins Shi–Tomasi sur la séquence test — les trajec
 
 ![Trajectoires Lucas-Kanade](../assets/optical_flow_lk_trajectories.png)
 
+## Le flot épars en pratique
+
+Trajectoires Lucas–Kanade sur la séquence test — chaque trace colorée suit un coin Shi–Tomasi à travers les images :
+
+![Trajectoires de points Lucas-Kanade](../assets/optical_flow_lk_trails.png)
+
 ## Scripts
 
 | Script | Méthode | Type |
