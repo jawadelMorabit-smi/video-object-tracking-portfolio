@@ -16,6 +16,8 @@ Une comparaison appliquée complète sur une tâche d'imagerie médicale : déte
 | Entraînement | 52 s (CPU) | 52 min (GPU T4) |
 | Inférence/image | 0,03 ms | ~6,5 ms (~150 FPS) |
 
+> **Provenance des données** : construit à partir du [Eye Detection Dataset brut (Kaggle)](https://www.kaggle.com/datasets/icebearogo/eye-detection-dataset) (~2000 images d'yeux annotées YOLO), puis curatisé dans Roboflow — nettoyage des labels, normalisation des IDs de classes (`0=sain`, `1=cataracte`, vérifiée visuellement) et augmentation (1385 → 4135 images de train).
+
 **Projet complet avec notebooks exécutés, figures et analyse :**
 
 👉 **[jawadelMorabit-smi/eye-cataract-detection](https://github.com/jawadelMorabit-smi/eye-cataract-detection)**

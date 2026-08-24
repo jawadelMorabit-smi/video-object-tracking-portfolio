@@ -16,6 +16,8 @@ A complete applied comparison on a medical imaging task: detecting **cataracts**
 | Training | 52 s (CPU) | 52 min (GPU T4) |
 | Inference/image | 0.03 ms | ~6.5 ms (~150 FPS) |
 
+> **Data provenance**: built on the raw [Eye Detection Dataset (Kaggle)](https://www.kaggle.com/datasets/icebearogo/eye-detection-dataset) (~2000 YOLO-annotated eye images), then curated in Roboflow — label cleaning, class-ID normalization (`0=sain`, `1=cataracte`, verified visually) and augmentation (1385 → 4135 train images).
+
 **Full project with executed notebooks, figures and analysis:**
 
 👉 **[jawadelMorabit-smi/eye-cataract-detection](https://github.com/jawadelMorabit-smi/eye-cataract-detection)**
