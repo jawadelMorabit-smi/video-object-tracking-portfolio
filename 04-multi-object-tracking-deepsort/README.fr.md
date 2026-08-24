@@ -28,6 +28,10 @@ vidéo ──► détection YOLOv8 ──► association DeepSORT ──► boî
 
 ## Résultats
 
+Démo animée — YOLOv8 + DeepSORT suivant un bus et des piétons avec des identités stables :
+
+![Démo de suivi YOLOv8+DeepSORT](../assets/deepsort_tracking_demo.gif)
+
 YOLOv8 + DeepSORT sur une scène urbaine — les identités restent stables malgré croisements et occlusions partielles :
 
 <p align="center">

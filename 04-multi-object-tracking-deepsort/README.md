@@ -31,6 +31,10 @@ video ──► YOLOv8 detection ──► DeepSORT association ──► tracke
 
 ## Results
 
+Animated demo — YOLOv8 + DeepSORT tracking a bus and pedestrians with stable IDs:
+
+![YOLOv8+DeepSORT tracking demo](../assets/deepsort_tracking_demo.gif)
+
 YOLOv8 + DeepSORT on a street scene — IDs stay stable through crossings and partial occlusions:
 
 <p align="center">
